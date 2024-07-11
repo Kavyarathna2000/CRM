@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.comcast.crm.organizationtest.CreateOrganisation">
+        <methods>
+          <include name="createOrgWithIndustry"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="CreateOrg"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="createOrgWithPhno"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.comcast.crm.organizationtest.CreateOrganisation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

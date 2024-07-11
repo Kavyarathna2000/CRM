@@ -1,0 +1,8 @@
+{
+"browser":"chrome",
+"url":"http://app.com",
+"un":"admin",
+"pwd":"admin",
+"timeout":20,
+"em":["testng","uat","staging"]
+}
