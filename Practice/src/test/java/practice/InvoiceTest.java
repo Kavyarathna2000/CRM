@@ -16,6 +16,7 @@ public class InvoiceTest extends BaseClass
 		String actTitle = driver.getTitle();
 		Assert.assertEquals(actTitle, "Login");
 		System.out.println("Step-1");
+		System.out.println();
 		System.out.println("hii");
 		System.out.println("Step-2");
 		System.out.println("Step-3");
